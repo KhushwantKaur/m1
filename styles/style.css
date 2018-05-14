@@ -1,0 +1,175 @@
+header{
+    border-bottom: 1px #dedbdb solid;
+    box-shadow: 5px 2px 5px #cfcece;
+}
+.navbar{
+    background: white !important;
+}
+#navbarContents{
+    margin-top: 70px;
+}
+.nav-link{
+    border-top: 3px solid transparent;
+    font-weight: bold;
+    margin-left: 15px;
+    text-transform: capitalize;
+    color: black !important;
+}
+.nav-link:hover{
+    border-top: 3px solid green;
+    color: green !important;
+}
+a.active{
+    color:green !important;
+    border-top: 3px solid green;
+}
+.topContentHomepage{
+    height: 400px;
+    background-image: url(../images/black.jpg)
+}
+.homepageHeading{
+    padding: 100px;
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.leftHomepageContent{
+    position: relative;
+}
+.FeaturedArtistName{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+.FeaturedArtistName a{
+    color: white;
+}
+.FeaturedArtistName a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+}
+.artistImage{
+    margin-top: 10px;
+}
+.artistImage img{
+    width: 100%;
+}
+.artistInfo{
+    margin-top: 10px;
+}
+.artistName{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homePageInfo{
+    padding: 20px;
+}
+.homePageSubHeadings{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.eventDateTimeHomepage{
+    background: green;
+    color: white;
+    height: 20px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.eventTitleHomePage{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 19px;
+    margin-bottom: 0px !important;
+}
+.eventHomePage{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c6c6c6;
+    height: 120px;
+}
+.rightHomepageContent li{
+    list-style: none;
+}
+.rightHomepageContent li img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+}
+footer{
+    border-top: 2px #ddd solid;
+    box-shadow: 5px -4px 5px #d2cece;
+    min-height: 160px;
+    max-height: 400px;
+    clear: both;
+}
+.footerContents{
+    margin-top: 10px;
+}
+.footerContents img{
+    height: 130px;
+}
+.middleFooterContent img{
+    height: 100px !important;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid c6bdbd;
+    box-shadow: 1px 2px 5px #cfcece;
+}
+.eachArtist img{
+    height: 200px; 
+}
+.artistList{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-header{
+        width: 100%;
+    }
+    #navbarContents{
+        margin-top: 0px;
+        border-top: 1px solid gray;
+    }
+    .navbar-toggler{
+        float: right;
+    }
+    .middleFooterContent{
+        margin-top: 10px;
+    }
+    .rightFooterContent{
+        text-align: right;
+    }
+    .leftFooterContent{
+        text-align: left;
+    }
+    footer{
+        min-height: 200px;
+    }
+    .eventTitleHomePage{
+        font-size: 16px;
+    }
+    .homepageHeading{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .leftFooterContent,.rightFooterContent {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .eventHomePage{
+        height: 200px;
+    }
+    .homepageHeading{
+        font-size: 45px;
+        padding: 60px;
+    }
+}
